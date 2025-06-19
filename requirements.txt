@@ -1,0 +1,11 @@
+numpy
+torch
+openai-whisper
+fastapi
+uvicorn
+websockets
+soundfile
+prometheus-client
+python-dotenv
+pydantic-settings
+pydub

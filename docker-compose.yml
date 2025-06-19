@@ -1,0 +1,12 @@
+services:
+  transcription-api:
+    container_name: transcription-api
+    image: evdev3/transcription-api:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    restart: unless-stopped
+    env_file:
+      - .env
